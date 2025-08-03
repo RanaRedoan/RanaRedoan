@@ -10,9 +10,6 @@ Skills: Stata / SurveyCTO / Kobo Toolbox / ArcGIS / QGIS / HTML
 - 📫 How to reach me: Email, Phone, Whatsapp 
 - 😄 Pronouns: Rana 
 
-
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/https://github.com/RanaRedoan)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/www.linkedin.com/in/mdredoanhossainbhuiyan/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg' alt='facebook' height='40'>](https://www.facebook.com/https://www.facebook.com/redoan.rana)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg' alt='instagram' height='40'>](https://www.instagram.com/https://www.instagram.com/ranaredoan630//)  
-
 [![trophy](https://github-profile-trophy.vercel.app/?username=https://github.com/RanaRedoan)](https://github.com/ryo-ma/github-profile-trophy)
 
 ![GitHub metrics](https://metrics.lecoq.io/https://github.com/RanaRedoan)  
