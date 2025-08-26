@@ -24,39 +24,81 @@
 | **exporttabs** | ![release v1.4](https://img.shields.io/badge/release%20v1.4-blue) | ![release date Aug 2025](https://img.shields.io/badge/release%20date-Aug%202025-purple) | Exports all single and cross-tabulation tables into Excel with **one simple command**. |
 
 ---
+## 📖 Core Stata Package Features  
 
-## 📖 Core Stata  Package Features  
+<div align="center">
 
-**optcounts – Special Value Tracker**  
-- Counts frequency of `-99, 99, -999` across variables  
-- Works for both strings & numerics  
-- Generates survey-level summary tables  
+<table>
+<tr>
+<td width="48%" style="background-color:#f9f9f9; border-radius:10px; padding:15px; border:1px solid #ddd;">
+<h3>🔹 optcounts – <i>Special Value Tracker</i></h3>
+<ul>
+  <li>Counts frequency of codes like <code>-99, 99, -999</code></li>
+  <li>Works with both strings & numerics</li>
+  <li>Generates survey-level summary tables</li>
+</ul>
+</td>
 
-**detectoutlier – Outlier Detection Tool**  
-- Uses **mean ± k SD** rule  
-- Auto-scans numeric variables  
-- Exports flagged results with labels, min, max  
+<td width="48%" style="background-color:#f0f7ff; border-radius:10px; padding:15px; border:1px solid #ddd;">
+<h3>🔹 detectoutlier – <i>Outlier Detection Tool</i></h3>
+<ul>
+  <li>Detects outliers using <b>mean ± k SD rule</b></li>
+  <li>Auto-scans numeric variables</li>
+  <li>Exports flagged results with labels, min, max</li>
+</ul>
+</td>
+</tr>
 
-**exportopenended – Text Response Exporter**  
-- Exports text responses in long format:  
-  `ID | Variable | Response | Translation`  
+<tr>
+<td width="48%" style="background-color:#f0f7ff; border-radius:10px; padding:15px; border:1px solid #ddd;">
+<h3>🔹 exportopenended – <i>Text Response Exporter</i></h3>
+<ul>
+  <li>Exports open-text responses to Excel</li>
+  <li>Long format: <code>ID | Variable | Response | Translation</code></li>
+</ul>
+</td>
 
-**inputcorrection – Text Correction Processor**  
-- Applies Excel corrections back to dataset  
-- Streamlines translation workflows  
+<td width="48%" style="background-color:#f9f9f9; border-radius:10px; padding:15px; border:1px solid #ddd;">
+<h3>🔹 inputcorrection – <i>Text Correction Processor</i></h3>
+<ul>
+  <li>Applies Excel corrections directly into datasets</li>
+  <li>Streamlines translation & editing workflows</li>
+</ul>
+</td>
+</tr>
 
-**codebookgen – Automated Codebook Generator**  
-- Creates clean **Excel codebooks**  
-- Includes labels, missing stats, characteristics  
+<tr>
+<td width="48%" style="background-color:#f9f9f9; border-radius:10px; padding:15px; border:1px solid #ddd;">
+<h3>🔹 codebookgen – <i>Automated Codebook Generator</i></h3>
+<ul>
+  <li>Creates professional Excel codebooks</li>
+  <li>Includes variable labels, value labels & missing stats</li>
+</ul>
+</td>
 
-**biascheck – Enumerator Bias Detector**  
-- Flags unusual patterns in Likert/ordinal data  
-- Generates enumerator-wise frequency tables  
+<td width="48%" style="background-color:#f0f7ff; border-radius:10px; padding:15px; border:1px solid #ddd;">
+<h3>🔹 biascheck – <i>Enumerator Bias Detector</i></h3>
+<ul>
+  <li>Flags unusual patterns in Likert/ordinal responses</li>
+  <li>Generates enumerator-wise frequency tables</li>
+</ul>
+</td>
+</tr>
 
-**exporttabs – Batch Table Exporter**  
-- Exports **all tabulations** (single & cross)  
-- Produces clean Excel outputs  
-- Saves hours of manual tabulation work  
+<tr>
+<td colspan="2" style="background-color:#f9f9f9; border-radius:10px; padding:15px; border:1px solid #ddd;">
+<h3>🔹 exporttabs – <i>Batch Table Exporter</i></h3>
+<ul>
+  <li>Exports all single & cross-tabulations</li>
+  <li>Produces clean Excel outputs</li>
+  <li>Saves hours of manual tabulation effort</li>
+</ul>
+</td>
+</tr>
+</table>
+
+</div>
+
 
 ---
 
