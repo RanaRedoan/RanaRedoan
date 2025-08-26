@@ -86,77 +86,81 @@
 
 ## 🔹 Core Stata Package Features  
 
+<p align="center">
+✨ Below are my core <b>Stata tools</b> designed to <i>save time, reduce errors, and boost efficiency</i>.  
+Each package focuses on solving real-world research & survey data challenges. 🚀  
+</p>
+
 <div align="center">
 
 <table>
 <tr>
-<td width="48%" style="background: linear-gradient(145deg, #f9f9f9, #e0f7ff); border-radius:12px; padding:20px; border:1px solid #ddd;">
-<h3>optcounts – <i>Special Value Tracker</i></h3>
+<td width="48%" style="background: linear-gradient(135deg, #f0faff, #dff5ff); border-radius:15px; padding:20px; border:1px solid #cce7ff;">
+<h3>🔢 <b>optcounts</b> – <i>Special Value Tracker</i></h3>
 <ul>
-  <li>Counts codes like <code>-99, 99, -999</code></li>
-  <li>Supports numeric & string data</li>
-  <li>Generates survey-level summary tables</li>
+  <li>✅ Counts missing/error codes <code>-99, 99, -999</code></li>
+  <li>📊 Works with numeric & string variables</li>
+  <li>📑 Generates survey-level summary tables</li>
 </ul>
 </td>
 
-<td width="48%" style="background: linear-gradient(145deg, #f0f7ff, #e9f3ff); border-radius:12px; padding:20px; border:1px solid #ddd;">
-<h3>detectoutlier – <i>Outlier Detection Tool</i></h3>
+<td width="48%" style="background: linear-gradient(135deg, #f5f0ff, #ebe0ff); border-radius:15px; padding:20px; border:1px solid #e0ccff;">
+<h3>📈 <b>detectoutlier</b> – <i>Outlier Detection Tool</i></h3>
 <ul>
-  <li>Detects outliers with <b>mean ± k SD</b></li>
-  <li>Auto-scans numeric variables</li>
-  <li>Exports flagged results with labels, min, max</li>
-</ul>
-</td>
-</tr>
-
-<tr>
-<td width="48%" style="background: linear-gradient(145deg, #f0f7ff, #e9f3ff); border-radius:12px; padding:20px; border:1px solid #ddd;">
-<h3>exportopenended – <i>Text Response Exporter</i></h3>
-<ul>
-  <li>Exports open-text responses to Excel</li>
-  <li>Long format: <code>ID | Variable | Response | Translation</code></li>
-</ul>
-</td>
-
-<td width="48%" style="background: linear-gradient(145deg, #f9f9f9, #e0f7ff); border-radius:12px; padding:20px; border:1px solid #ddd;">
-<h3>inputcorrection – <i>Text Correction Processor</i></h3>
-<ul>
-  <li>Applies Excel corrections directly</li>
-  <li>Streamlines translation & editing workflows</li>
+  <li>🔍 Detects outliers using <b>mean ± k SD</b></li>
+  <li>⚡ Auto-scans numeric variables</li>
+  <li>📤 Exports results with labels, min, max</li>
 </ul>
 </td>
 </tr>
 
 <tr>
-<td width="48%" style="background: linear-gradient(145deg, #f9f9f9, #e0f7ff); border-radius:12px; padding:20px; border:1px solid #ddd;">
-<h3>codebookgen – <i>Automated Codebook Generator</i></h3>
+<td width="48%" style="background: linear-gradient(135deg, #fff7f0, #ffe9df); border-radius:15px; padding:20px; border:1px solid #ffd9b3;">
+<h3>💬 <b>exportopenended</b> – <i>Text Response Exporter</i></h3>
 <ul>
-  <li>Creates professional Excel codebooks</li>
-  <li>Includes variable labels, value labels & missing stats</li>
+  <li>📝 Exports open-text responses to Excel</li>
+  <li>🔄 Long format: <code>ID | Variable | Response | Translation</code></li>
 </ul>
 </td>
 
-<td width="48%" style="background: linear-gradient(145deg, #f0f7ff, #e9f3ff); border-radius:12px; padding:20px; border:1px solid #ddd;">
-<h3>biascheck – <i>Enumerator Bias Detector</i></h3>
+<td width="48%" style="background: linear-gradient(135deg, #f0fff5, #e0ffe9); border-radius:15px; padding:20px; border:1px solid #b3ffcc;">
+<h3>🛠️ <b>inputcorrection</b> – <i>Text Correction Processor</i></h3>
 <ul>
-  <li>Flags unusual patterns in Likert/ordinal responses</li>
-  <li>Generates enumerator-wise frequency tables</li>
+  <li>📥 Applies Excel corrections directly</li>
+  <li>🚀 Streamlines translation & editing workflows</li>
 </ul>
 </td>
 </tr>
 
 <tr>
-<td colspan="2" style="background: linear-gradient(145deg, #f9f9f9, #e0f7ff); border-radius:12px; padding:20px; border:1px solid #ddd;">
-<h3>exporttabs – <i>Batch Table Exporter</i></h3>
+<td width="48%" style="background: linear-gradient(135deg, #f0faff, #e0f3ff); border-radius:15px; padding:20px; border:1px solid #cce7ff;">
+<h3>📘 <b>codebookgen</b> – <i>Automated Codebook Generator</i></h3>
 <ul>
-  <li>Exports all single & cross-tabulations</li>
-  <li>Produces clean Excel outputs</li>
-  <li>Saves hours of manual tabulation effort</li>
+  <li>📂 Creates professional Excel codebooks</li>
+  <li>🔎 Includes variable labels, value labels & missing stats</li>
+</ul>
+</td>
+
+<td width="48%" style="background: linear-gradient(135deg, #fff0f7, #ffe0f3); border-radius:15px; padding:20px; border:1px solid #ffccdd;">
+<h3>⚖️ <b>biascheck</b> – <i>Enumerator Bias Detector</i></h3>
+<ul>
+  <li>🔦 Flags unusual response patterns</li>
+  <li>👥 Generates enumerator-wise frequency tables</li>
+</ul>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" style="background: linear-gradient(135deg, #f0f9ff, #e0f3ff); border-radius:15px; padding:20px; border:1px solid #cce7ff;">
+<h3>📊 <b>exporttabs</b> – <i>Batch Table Exporter</i></h3>
+<ul>
+  <li>📤 Exports all single & cross-tabulations</li>
+  <li>📑 Produces clean Excel outputs</li>
+  <li>💡 Saves hours of manual tabulation effort</li>
 </ul>
 </td>
 </tr>
 </table>
-
 </div>
 
 ---
