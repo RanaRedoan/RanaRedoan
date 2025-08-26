@@ -15,6 +15,57 @@
 
 ---
 
+## 🛠️ Skills & Technologies  
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> 
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> 
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> 
+  <img src="https://img.shields.io/badge/STATA-5A77FF?style=for-the-badge&logo=stata&logoColor=white" /> 
+  <img src="https://img.shields.io/badge/Excel_VBA-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" /> 
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+</p>
+
+<div align="center">
+<table>
+<tr>
+<td width="30%" style="background: linear-gradient(145deg, #f0f7ff, #e0f3ff); border-radius:12px; padding:15px; margin:5px; border:1px solid #ddd;">
+<h3>Python 🐍</h3>
+<p>Data analysis, automation, and scripting.</p>
+</td>
+
+<td width="30%" style="background: linear-gradient(145deg, #fff0f0, #ffe0e0); border-radius:12px; padding:15px; margin:5px; border:1px solid #ddd;">
+<h3>HTML & CSS 🌐</h3>
+<p>Web development and designing interactive content.</p>
+</td>
+
+<td width="30%" style="background: linear-gradient(145deg, #f0fff0, #e0ffe0); border-radius:12px; padding:15px; margin:5px; border:1px solid #ddd;">
+<h3>STATA 📊</h3>
+<p>Research, survey data management, and statistical analysis.</p>
+</td>
+</tr>
+
+<tr>
+<td width="30%" style="background: linear-gradient(145deg, #fffaf0, #fff0e0); border-radius:12px; padding:15px; margin:5px; border:1px solid #ddd;">
+<h3>Excel VBA 📈</h3>
+<p>Automation, macros, and workflow optimization.</p>
+</td>
+
+<td width="30%" style="background: linear-gradient(145deg, #f0f0ff, #e0e0ff); border-radius:12px; padding:15px; margin:5px; border:1px solid #ddd;">
+<h3>MySQL 🗄️</h3>
+<p>Database management and querying for analytics.</p>
+</td>
+
+<td width="30%" style="background: linear-gradient(145deg, #fff0f7, #ffe0f0); border-radius:12px; padding:15px; margin:5px; border:1px solid #ddd;">
+<h3>Other Tools ⚙️</h3>
+<p>Git, Markdown, Data Visualization, Open-source contributions.</p>
+</td>
+</tr>
+</table>
+</div>
+
+---
+
 ## 📦 Featured Stata Packages  
 
 | Package | Version | Updated | Description |
