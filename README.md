@@ -166,5 +166,5 @@
 <p align="center">
 📧 <b>Email:</b> redoanhossain630@gmail.com &nbsp;|&nbsp;
 💼 <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/mdredoanhossainbhuiyan">Connect</a> &nbsp;|&nbsp;
-🐦 <b>Twitter:</b> <a href="https://twitter.com/RanaRedoan">Follow</a>
+🐦 <b>facebook:</b> <a href="https://www.facebook.com/redoan.rana">Follow</a>
 </p>
