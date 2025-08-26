@@ -29,34 +29,34 @@
 <div align="center">
 <table>
 <tr>
-<td width="30%" style="background: linear-gradient(145deg, #f0f7ff, #e0f3ff); border-radius:12px; padding:15px; margin:5px; border:1px solid #ddd;">
+<td width="30%" style="background: linear-gradient(145deg, #f0f7ff, #e0f3ff); border-radius:12px; padding:15px; border:1px solid #ddd;">
 <h3>Python 🐍</h3>
 <p>Data analysis, automation, and scripting.</p>
 </td>
 
-<td width="30%" style="background: linear-gradient(145deg, #fff0f0, #ffe0e0); border-radius:12px; padding:15px; margin:5px; border:1px solid #ddd;">
+<td width="30%" style="background: linear-gradient(145deg, #fff0f0, #ffe0e0); border-radius:12px; padding:15px; border:1px solid #ddd;">
 <h3>HTML & CSS 🌐</h3>
 <p>Web development and designing interactive content.</p>
 </td>
 
-<td width="30%" style="background: linear-gradient(145deg, #f0fff0, #e0ffe0); border-radius:12px; padding:15px; margin:5px; border:1px solid #ddd;">
+<td width="30%" style="background: linear-gradient(145deg, #f0fff0, #e0ffe0); border-radius:12px; padding:15px; border:1px solid #ddd;">
 <h3>STATA 📊</h3>
 <p>Research, survey data management, and statistical analysis.</p>
 </td>
 </tr>
 
 <tr>
-<td width="30%" style="background: linear-gradient(145deg, #fffaf0, #fff0e0); border-radius:12px; padding:15px; margin:5px; border:1px solid #ddd;">
+<td width="30%" style="background: linear-gradient(145deg, #fffaf0, #fff0e0); border-radius:12px; padding:15px; border:1px solid #ddd;">
 <h3>Excel VBA 📈</h3>
 <p>Automation, macros, and workflow optimization.</p>
 </td>
 
-<td width="30%" style="background: linear-gradient(145deg, #f0f0ff, #e0e0ff); border-radius:12px; padding:15px; margin:5px; border:1px solid #ddd;">
+<td width="30%" style="background: linear-gradient(145deg, #f0f0ff, #e0e0ff); border-radius:12px; padding:15px; border:1px solid #ddd;">
 <h3>MySQL 🗄️</h3>
 <p>Database management and querying for analytics.</p>
 </td>
 
-<td width="30%" style="background: linear-gradient(145deg, #fff0f7, #ffe0f0); border-radius:12px; padding:15px; margin:5px; border:1px solid #ddd;">
+<td width="30%" style="background: linear-gradient(145deg, #fff0f7, #ffe0f0); border-radius:12px; padding:15px; border:1px solid #ddd;">
 <h3>Other Tools ⚙️</h3>
 <p>Git, Markdown, Data Visualization, Open-source contributions.</p>
 </td>
@@ -67,6 +67,10 @@
 ---
 
 ## 📦 Featured Stata Packages  
+
+<p align="center">
+<img src="https://img.shields.io/badge/Research-Data%20Tools-blue?style=for-the-badge" />
+</p>
 
 | Package | Version | Updated | Description |
 |---------|---------|---------|-------------|
@@ -157,24 +161,10 @@
 
 ---
 
-## 📊 GitHub Stats  
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RanaRedoan&show_icons=true&theme=radical&hide_border=false&count_private=false" height="180"/>  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RanaRedoan&theme=radical&hide_border=false&include_all_commits=false&count_private=false&layout=compact" height="180"/>  
-</p>
-
-<p align="center">
-  <a href="https://visitcount.itsvg.in">
-    <img src="https://visitcount.itsvg.in/api?id=RanaRedoan&icon=0&color=0" />
-  </a>
-</p>
-
----
-
 ## 🌐 Connect with Me  
 
 <p align="center">
 📧 <b>Email:</b> redoanhossain630@gmail.com &nbsp;|&nbsp;
-💼 <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/mdredoanhossainbhuiyan">Connect</a>
+💼 <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/mdredoanhossainbhuiyan">Connect</a> &nbsp;|&nbsp;
+🐦 <b>Twitter:</b> <a href="https://twitter.com/RanaRedoan">Follow</a>
 </p>
