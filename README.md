@@ -4,9 +4,9 @@
 </p>
 
 <p align="center">
-  I build open-source tools for <b>data cleaning, documentation, and visualization</b> in Stata and beyond.  
-  <br>
-  My goal is to make <b>survey research workflows easier, more transparent, and more efficient</b>.  
+  As a data professional, I’ve worked on several research projects where I discovered smarter ways to manage and streamline data workflows.  
+  To save time, reduce errors, and enhance efficiency, I began creating open-source <b>Stata packages</b>.  
+  Now, I share these tools so that anyone working with survey or research data can benefit from them too.  
 </p>
 
 ---
@@ -15,48 +15,48 @@
 
 | Package | Version | Updated | Description |
 |---------|---------|---------|-------------|
-| **optcounts** | ![v1.0](https://img.shields.io/badge/v1.0-blue) | ![Jun 2025](https://img.shields.io/badge/Jan%202025-green) | Tracks frequency of user-defined special values (e.g., -99, 99, -999). Generates descriptive survey-level tables. |
-| **detectoutlier** | ![v1.2](https://img.shields.io/badge/v1.2-blue) | ![Jun 2025](https://img.shields.io/badge/Feb%202025-orange) | Outlier detection in numeric variables using mean ± k SD. Exports results with variable labels, min/max, and flagged outliers. |
-| **exportopenended** | ![v1.1](https://img.shields.io/badge/v1.1-blue) | ![July 2025](https://img.shields.io/badge/Mar%202025-yellow) | Exports open-ended responses in long format (ID, variable, text response, translation column). |
-| **inputcorrection** | ![v1.3](https://img.shields.io/badge/v1.3-blue) | ![July 2025](https://img.shields.io/badge/Apr%202025-red) | Applies corrected values from Excel to datasets. Perfect for text edits and translations. |
-| **codebookgen** | ![v2.0](https://img.shields.io/badge/v2.0-blue) | ![July 2025](https://img.shields.io/badge/May%202025-green) | Generates professional dataset documentation (labels, missing stats) in Excel. |
-| **biascheck** | ![v1.5](https://img.shields.io/badge/v1.5-blue) | ![Jun 2025](https://img.shields.io/badge/Apr%202025-yellow) | Detects potential enumerator bias in survey responses using Likert/ordinal analysis and deviation checks. |
-| **exporttabs** | ![v1.4](https://img.shields.io/badge/v1.4-blue) | ![Aug 2025](https://img.shields.io/badge/Oct%202025-yellow) | Exports all single and cross-tabulation tables into Excel with **one simple command**. |
+| **optcounts** | ![v1.0](https://img.shields.io/badge/v1.0-blue) | ![Jan 2025](https://img.shields.io/badge/Jan%202025-green) | Tracks frequency of user-defined special values (e.g., -99, 99, -999). Generates descriptive survey-level tables. |
+| **detectoutlier** | ![v1.2](https://img.shields.io/badge/v1.2-blue) | ![Feb 2025](https://img.shields.io/badge/Feb%202025-orange) | Outlier detection in numeric variables using mean ± k SD. Exports results with variable labels, min/max, and flagged outliers. |
+| **exportopenended** | ![v1.1](https://img.shields.io/badge/v1.1-blue) | ![Mar 2025](https://img.shields.io/badge/Mar%202025-yellow) | Exports open-ended responses in long format (ID, variable, text response, translation column). |
+| **inputcorrection** | ![v1.3](https://img.shields.io/badge/v1.3-blue) | ![Apr 2025](https://img.shields.io/badge/Apr%202025-red) | Applies corrected values from Excel to datasets. Perfect for text edits and translations. |
+| **codebookgen** | ![v2.0](https://img.shields.io/badge/v2.0-blue) | ![May 2025](https://img.shields.io/badge/May%202025-green) | Generates professional dataset documentation (labels, missing stats) in Excel. |
+| **biascheck** | ![v1.5](https://img.shields.io/badge/v1.5-blue) | ![Apr 2025](https://img.shields.io/badge/Apr%202025-yellow) | Detects potential enumerator bias in survey responses using Likert/ordinal analysis and deviation checks. |
+| **exporttabs** | ![v1.4](https://img.shields.io/badge/v1.4-blue) | ![Oct 2025](https://img.shields.io/badge/Oct%202025-yellow) | Exports all single and cross-tabulation tables into Excel with **one simple command**. |
 
 ---
 
-## 📖 Core Package Features  
+## 📖 Core Stata  Package Features  
 
-🔹 **optcounts – Special Value Tracker**  
-✔ Counts frequency of `-99, 99, -999` across variables  
-✔ Works for both strings & numerics  
-✔ Generates survey-level summary tables  
+**optcounts – Special Value Tracker**  
+- Counts frequency of `-99, 99, -999` across variables  
+- Works for both strings & numerics  
+- Generates survey-level summary tables  
 
-🔹 **detectoutlier – Outlier Detection Tool**  
-✔ Uses **mean ± k SD** rule  
-✔ Auto-scans numeric variables  
-✔ Exports flagged results with labels, min, max  
+**detectoutlier – Outlier Detection Tool**  
+- Uses **mean ± k SD** rule  
+- Auto-scans numeric variables  
+- Exports flagged results with labels, min, max  
 
-🔹 **exportopenended – Text Response Exporter**  
-✔ Exports text responses in long format:  
-`ID | Variable | Response | Translation`  
+**exportopenended – Text Response Exporter**  
+- Exports text responses in long format:  
+  `ID | Variable | Response | Translation`  
 
-🔹 **inputcorrection – Text Correction Processor**  
-✔ Applies Excel corrections back to dataset  
-✔ Streamlines translation workflows  
+**inputcorrection – Text Correction Processor**  
+- Applies Excel corrections back to dataset  
+- Streamlines translation workflows  
 
-🔹 **codebookgen – Automated Codebook Generator**  
-✔ Creates clean **Excel codebooks**  
-✔ Includes labels, missing stats, characteristics  
+**codebookgen – Automated Codebook Generator**  
+- Creates clean **Excel codebooks**  
+- Includes labels, missing stats, characteristics  
 
-🔹 **biascheck – Enumerator Bias Detector**  
-✔ Flags unusual patterns in Likert/ordinal data  
-✔ Generates enumerator-wise frequency tables  
+**biascheck – Enumerator Bias Detector**  
+- Flags unusual patterns in Likert/ordinal data  
+- Generates enumerator-wise frequency tables  
 
-🔹 **exporttabs – Batch Table Exporter**  
-✔ Exports **all tabulations** (single & cross)  
-✔ Produces clean Excel outputs  
-✔ Saves hours of manual tabulation work  
+**exporttabs – Batch Table Exporter**  
+- Exports **all tabulations** (single & cross)  
+- Produces clean Excel outputs  
+- Saves hours of manual tabulation work  
 
 ---
 
