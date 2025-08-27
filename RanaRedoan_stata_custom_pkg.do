@@ -128,27 +128,3 @@
 	}
 
 
-quietly display " "
-quietly display "========================================="
-quietly display "🎉 All Stata packages have been installed!"
-quietly display "Here are the installed packages and their descriptions:"
-quietly display " "
-
-quietly display "• optcounts      : Tracks frequency of special values (-99, 99, -999) and generates descriptive survey tables."
-quietly display "• detectoutlier  : Detects numeric outliers using mean ± k SD and exports results with labels and stats."
-quietly display "• exportopenended: Exports open-ended responses in long format (ID, variable, response, translation)."
-quietly display "• inputcorrection: Applies corrected values from Excel, streamlining text edits & translations."
-quietly display "• codebookgen    : Generates professional dataset documentation in Excel."
-quietly display "• biascheck      : Detects potential enumerator bias using Likert/ordinal deviation checks."
-quietly display "• exporttabs     : Exports single & cross-tabulation tables to Excel with one command."
-quietly display " "
-quietly display "💡 You can now use these packages in your Stata workflows!"
-quietly display " For support, bug reports, or feature requests, please contact to the author @ redoanhossain630@gmail.com"
-quietly display "========================================="
-quietly display " "
-
-
-
-
-
-
