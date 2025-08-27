@@ -74,13 +74,14 @@
 
 | Package | Version | Updated | Description |
 |---------|---------|---------|-------------|
-| **optcounts** | ![v1.0](https://img.shields.io/badge/v1.0-blue) | ![Jun 2025](https://img.shields.io/badge/Jun%202025-green) | Tracks frequency of special values (-99, 99, -999). Generates descriptive survey tables. |
-| **detectoutlier** | ![v1.2](https://img.shields.io/badge/v1.2-blue) | ![Jul 2025](https://img.shields.io/badge/Jul%202025-orange) | Detects numeric outliers using mean ± k SD. Exports results with labels and stats. |
-| **exportopenended** | ![v1.1](https://img.shields.io/badge/v1.1-blue) | ![Jul 2025](https://img.shields.io/badge/Jul%202025-yellow) | Exports open-ended responses in long format (ID, variable, response, translation). |
-| **inputcorrection** | ![v1.3](https://img.shields.io/badge/v1.3-blue) | ![Apr 2025](https://img.shields.io/badge/Apr%202025-red) | Applies corrected values from Excel to datasets, streamlining text edits & translations. |
-| **codebookgen** | ![v2.0](https://img.shields.io/badge/v2.0-blue) | ![May 2025](https://img.shields.io/badge/May%202025-green) | Generates professional dataset documentation in Excel. |
-| **biascheck** | ![v1.5](https://img.shields.io/badge/v1.5-blue) | ![Jul 2025](https://img.shields.io/badge/Jul%202025-yellow) | Detects potential enumerator bias using Likert/ordinal deviation checks. |
-| **exporttabs** | ![v1.4](https://img.shields.io/badge/v1.4-blue) | ![Aug 2025](https://img.shields.io/badge/Aug%202025-purple) | Exports single & cross-tabulation tables to Excel with one command. |
+| [**optcounts**](https://github.com/RanaRedoan/optcounts) | ![v1.0](https://img.shields.io/badge/v1.0-blue) | ![Jun 2025](https://img.shields.io/badge/Jun%202025-green) | Tracks frequency of special values (-99, 99, -999). Generates descriptive survey tables. |
+| [**detectoutlier**](https://github.com/RanaRedoan/detectoutlier) | ![v1.2](https://img.shields.io/badge/v1.2-blue) | ![Jul 2025](https://img.shields.io/badge/Jul%202025-orange) | Detects numeric outliers using mean ± k SD. Exports results with labels and stats. |
+| [**exportopenended**](https://github.com/RanaRedoan/exportopenended) | ![v1.1](https://img.shields.io/badge/v1.1-blue) | ![Jul 2025](https://img.shields.io/badge/Jul%202025-yellow) | Exports open-ended responses in long format (ID, variable, response, translation). |
+| [**inputcorrection**](https://github.com/RanaRedoan/inputcorrection) | ![v1.3](https://img.shields.io/badge/v1.3-blue) | ![Apr 2025](https://img.shields.io/badge/Apr%202025-red) | Applies corrected values from Excel to datasets, streamlining text edits & translations. |
+| [**codebookgen**](https://github.com/RanaRedoan/codebookgen) | ![v2.0](https://img.shields.io/badge/v2.0-blue) | ![May 2025](https://img.shields.io/badge/May%202025-green) | Generates professional dataset documentation in Excel. |
+| [**biascheck**](https://github.com/RanaRedoan/biascheck) | ![v1.5](https://img.shields.io/badge/v1.5-blue) | ![Jul 2025](https://img.shields.io/badge/Jul%202025-yellow) | Detects potential enumerator bias using Likert/ordinal deviation checks. |
+| [**exporttabs**](https://github.com/RanaRedoan/exporttabs) | ![v1.4](https://img.shields.io/badge/v1.4-blue) | ![Aug 2025](https://img.shields.io/badge/Aug%202025-purple) | Exports single & cross-tabulation tables to Excel with one command. |
+
 
 ---
 
