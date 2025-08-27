@@ -128,3 +128,6 @@
 	}
 
 
+display "INSTALLATION COMPLETED SUCCESSFULLY"
+display "For support, bug reports, or feature requests, please contact to the author"
+
