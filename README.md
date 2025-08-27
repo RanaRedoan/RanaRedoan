@@ -166,6 +166,14 @@ Each package focuses on solving real-world research & survey data challenges. �
 
 
 ---
+---
+
+## 🛠️ Install All Stata Packages at Once  
+To get all my featured Stata packages in one go, simply run the following command in Stata:
+
+```stata
+do "https://raw.githubusercontent.com/RanaRedoan/RanaRedoan/main/RanaRedoan_stata_custom_pkg.do"
+```
 
 ## 🌐 Connect with Me  
 
