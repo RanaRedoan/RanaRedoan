@@ -68,7 +68,7 @@
 	   - Handles translations
 
 
-	 5. codebookgen - Automated Codebook Generator
+	 5. gencodebook - Automated Codebook Generator
 	 `````````````````````````````````````````````````````````````````````````````
 	 Purpose: Creates professional dataset documentation
 	 Features:
@@ -113,7 +113,7 @@
 	display "Please wait while tools are being installed..."
 
 	// Installation commands with progress feedback
-	local tools optcounts biascheck codebookgen exportopenended inputcorrection detectoutlier exporttabs
+	local tools optcounts biascheck gencodebook exportopenended inputcorrection detectoutlier exporttabs
 	local i 1
 
 	foreach tool of local tools {
@@ -130,4 +130,5 @@
 
 display "INSTALLATION COMPLETED SUCCESSFULLY"
 display "For support, bug reports, or feature requests, please contact to the author"
+
 
