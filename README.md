@@ -63,8 +63,8 @@
 </td>
 
 <td width="30%" style="background: linear-gradient(145deg, #e6f0ff, #d6eaff); border-radius:12px; padding:15px; border:1px solid #ddd;">
-<h3>GIS Tools 🗺️</h3>
-<p>ArcGIS, QGIS for geospatial analysis and mapping.</p>
+<h3>GIS & Analytics Tools 🗺️</h3>
+<p>ArcGIS, QGIS, Power BI for geospatial analysis and data visualization.</p>
 </td>
 </tr>
 
