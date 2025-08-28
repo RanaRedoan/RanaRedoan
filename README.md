@@ -24,6 +24,10 @@
   <img src="https://img.shields.io/badge/STATA-5A77FF?style=for-the-badge&logo=stata&logoColor=white" /> 
   <img src="https://img.shields.io/badge/Excel_VBA-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" /> 
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=ArcGIS&logoColor=white" />
+  <img src="https://img.shields.io/badge/STATA-5A77FF?style=for-the-badge&logo=QGIS&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=SUrveyCTO5&logoColor=white" /> 
+  
 </p>
 
 <div align="center">
