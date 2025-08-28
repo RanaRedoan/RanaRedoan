@@ -31,7 +31,6 @@
 
   
 </p>
-
 <div align="center">
 <table>
 <tr>
@@ -63,8 +62,8 @@
 </td>
 
 <td width="30%" style="background: linear-gradient(145deg, #e6f0ff, #d6eaff); border-radius:12px; padding:15px; border:1px solid #ddd;">
-<h3>GIS & Analytics Tools 🗺️</h3>
-<p>ArcGIS, QGIS, Power BI for geospatial analysis and data visualization.</p>
+<h3>GIS Tools 🗺️</h3>
+<p>ArcGIS, QGIS for geospatial analysis and mapping.</p>
 </td>
 </tr>
 
@@ -73,7 +72,12 @@
 <h3>Survey Tools 📋</h3>
 <p>SurveyCTO, Kobo Toolbox, ODK for data collection.</p>
 </td>
-<td width="30%" style="background: linear-gradient(145deg, #f0f7ff, #e0f3ff); border-radius:12px; padding:15px; border:1px solid #ddd;"></td>
+
+<td width="30%" style="background: linear-gradient(145deg, #fff5e6, #ffecd1); border-radius:12px; padding:15px; border:1px solid #ddd;">
+<h3>Power BI 📊</h3>
+<p>Data visualization and business intelligence.</p>
+</td>
+
 <td width="30%" style="background: linear-gradient(145deg, #f0f7ff, #e0f3ff); border-radius:12px; padding:15px; border:1px solid #ddd;"></td>
 </tr>
 </table>
