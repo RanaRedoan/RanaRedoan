@@ -62,10 +62,19 @@
 <p>Database management and querying for analytics.</p>
 </td>
 
-<td width="30%" style="background: linear-gradient(145deg, #fff0f7, #ffe0f0); border-radius:12px; padding:15px; border:1px solid #ddd;">
-<h3>Other Tools ⚙️</h3>
-<p>Git, Markdown, Data Visualization, Open-source contributions.</p>
+<td width="30%" style="background: linear-gradient(145deg, #e6f0ff, #d6eaff); border-radius:12px; padding:15px; border:1px solid #ddd;">
+<h3>GIS Tools 🗺️</h3>
+<p>ArcGIS, QGIS for geospatial analysis and mapping.</p>
 </td>
+</tr>
+
+<tr>
+<td width="30%" style="background: linear-gradient(145deg, #fff0f7, #ffe0f0); border-radius:12px; padding:15px; border:1px solid #ddd;">
+<h3>Survey Tools 📋</h3>
+<p>SurveyCTO, Kobo Toolbox, ODK for data collection.</p>
+</td>
+<td width="30%" style="background: linear-gradient(145deg, #f0f7ff, #e0f3ff); border-radius:12px; padding:15px; border:1px solid #ddd;"></td>
+<td width="30%" style="background: linear-gradient(145deg, #f0f7ff, #e0f3ff); border-radius:12px; padding:15px; border:1px solid #ddd;"></td>
 </tr>
 </table>
 </div>
