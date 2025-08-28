@@ -18,12 +18,16 @@
 ## 🛠️ Skills & Technologies  
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> 
-  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> 
-  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> 
-  <img src="https://img.shields.io/badge/STATA-5A77FF?style=for-the-badge&logo=stata&logoColor=white" /> 
-  <img src="https://img.shields.io/badge/Excel_VBA-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" /> 
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+<img src="https://img.shields.io/badge/STATA-5A77FF?style=for-the-badge&logo=stata&logoColor=white" />
+<img src="https://img.shields.io/badge/Excel_VBA-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/SurveyCTO-0078D4?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAwIDI1MDAiPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xMjUwIDBDNTU5LjcgMCA0IDE1NTkuNyA0IDEyNTBTNTU5LjcgMjUwMCAxMjUwIDI1MDBzMTI0Ni0xNTU5LjcgMTI0Ni0xMjUwUzE5NDAuMyAwIDEyNTAgMHptMCAyMzAwYy0zODYuNSAwLTcwMC0zMTMuNS03MDAtNzAwczMxMy41LTcwMCA3MDAtNzAwIDcwMCAzMTMuNSA3MDAgNzAwLTMxMy41IDcwMC03MDAgNzAwem0tMjAwLTYwMHY1MDBjMCA1NS4yIDQ0LjggMTAwIDEwMCAxMDBzMTAwLTQ0LjggMTAwLTEwMFY3MDBjMC01NS4yLTQ0LjgtMTAwLTEwMC0xMDBzLTEwMC40NC40LTEwMCAxMDB6bTQwMCAwbC0yMDAgNTAwdi0zMDBjMC01NS4yLTQ0LjgtMTAwLTEwMC0xMDBzLTEwMCA0NC44LTEwMCAxMDB2MzAwbC0yMDAtNTAwdi01MDBjMC01NS4yIDQ0LjgtMTAwIDEwMC0xMDBzMTAwIDQ0LjggMTAwIDEwMHYzMDBsMjAwIDUwMHYtNTAwYzAtNTUuMi00NC44LTEwMC0xMDAtMTAwc3otMTAwIDAtMTAwIDQ0LjgtMTAwIDEwMHoiLz48L3N2Zz4=&logoColor=white" />
+<img src="https://img.shields.io/badge/Kobo_Toolbox-00A1D6?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAwIDI1MDAiPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xMjUwIDBDNTU5LjcgMCA0IDE1NTkuNyA0IDEyNTBTNTU5LjcgMjUwMCAxMjUwIDI1MDBzMTI0Ni0xNTU5LjcgMTI0Ni0xMjUwUzE5NDAuMyAwIDEyNTAgMHptMCAyMzAwYy0zODYuNSAwLTcwMC0zMTMuNS03MDAtNzAwczMxMy41LTcwMCA3MDAtNzAwIDcwMCAzMTMuNSA3MDAgNzAwLTMxMy41IDcwMC03MDAgNzAwem0tMTAwLTUwMHY0MDBjMCA1NS4yIDQ0LjggMTAwIDEwMCAxMDBzMTAwLTQ0LjggMTAwLTEwMFY3MDBjMC01NS4yLTQ0LjgtMTAwLTEwMC0xMDBzLTEwMC40NC40LTEwMCAxMDB6bTQwMCAwbC0yMDAgNTAwdi0zMDBjMC01NS4yLTQ0LjgtMTAwLTEwMC0xMDBzLTEwMCA0NC44LTEwMCAxMDB2MzAwbC0yMDAtNTAwdi00MDBjMC01NS4yIDQ0LjgtMTAwIDEwMC0xMDBzMTAwIDQ0LjggMTAwIDEwMHYzMDBsMjAwIDUwMHYtNTAwYzAtNTUuMi00NC44LTEwMC0xMDAtMTAwc3otMTAwIDAtMTAwIDQ0LjgtMTAwIDEwMHoiLz48L3N2Zz4=&logoColor=white" />
+<img src="https://img.shields.io/badge/ArcGIS-1E90FF?style=for-the-badge&logo=arcgis&logoColor=white" />
+<img src="https://img.shields.io/badge/QGIS-3CB371?style=for-the-badge&logo=qgis&logoColor=white" />
 
   
 </p>
