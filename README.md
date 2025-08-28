@@ -78,7 +78,7 @@
 | [**detectoutlier**](https://github.com/RanaRedoan/detectoutlier) | ![v1.2](https://img.shields.io/badge/v1.2-blue) | ![Jul 2025](https://img.shields.io/badge/Jul%202025-orange) | Detects numeric outliers using mean ± k SD. Exports results with labels and stats. |
 | [**exportopenended**](https://github.com/RanaRedoan/exportopenended) | ![v1.1](https://img.shields.io/badge/v1.1-blue) | ![Jul 2025](https://img.shields.io/badge/Jul%202025-yellow) | Exports open-ended responses in long format (ID, variable, response, translation). |
 | [**inputcorrection**](https://github.com/RanaRedoan/inputcorrection) | ![v1.3](https://img.shields.io/badge/v1.3-blue) | ![Apr 2025](https://img.shields.io/badge/Apr%202025-red) | Applies corrected values from Excel to datasets, streamlining text edits & translations. |
-| [**codebookgen**](https://github.com/RanaRedoan/codebookgen) | ![v2.0](https://img.shields.io/badge/v2.0-blue) | ![May 2025](https://img.shields.io/badge/May%202025-green) | Generates professional dataset documentation in Excel. |
+| [**gencodebook**](https://github.com/RanaRedoan/gencodebook) | ![v2.0](https://img.shields.io/badge/v2.0-blue) | ![May 2025](https://img.shields.io/badge/May%202025-green) | Generates professional dataset documentation in Excel. |
 | [**biascheck**](https://github.com/RanaRedoan/biascheck) | ![v1.5](https://img.shields.io/badge/v1.5-blue) | ![Jul 2025](https://img.shields.io/badge/Jul%202025-yellow) | Detects potential enumerator bias using Likert/ordinal deviation checks. |
 | [**exporttabs**](https://github.com/RanaRedoan/exporttabs) | ![v1.4](https://img.shields.io/badge/v1.4-blue) | ![Aug 2025](https://img.shields.io/badge/Aug%202025-purple) | Exports single & cross-tabulation tables to Excel with one command. |
 
@@ -135,7 +135,7 @@ Each package focuses on solving real-world research & survey data challenges. �
 
 <tr>
 <td width="48%" style="background: linear-gradient(135deg, #f0faff, #e0f3ff); border-radius:15px; padding:20px; border:1px solid #cce7ff;">
-<h3>📘 <b>codebookgen</b> – <i>Automated Codebook Generator</i></h3>
+<h3>📘 <b>gencodebook</b> – <i>Automated Codebook Generator</i></h3>
 <ul>
   <li>📂 Creates professional Excel codebooks</li>
   <li>🔎 Includes variable labels, value labels & missing stats</li>
