@@ -102,7 +102,7 @@
 | [**biascheck**](https://github.com/RanaRedoan/biascheck) | ![v1.5](https://img.shields.io/badge/v1.5-blue) | ![Jul 2025](https://img.shields.io/badge/Jul%202025-yellow) | Detects potential enumerator bias using Likert/ordinal deviation checks. |
 | [**exporttabs**](https://github.com/RanaRedoan/exporttabs) | ![v1.4](https://img.shields.io/badge/v1.4-blue) | ![Aug 2025](https://img.shields.io/badge/Aug%202025-purple) | Exports single & cross-tabulation tables to Excel with one command. |
 
-datareport – Lightning-Fast Survey Data Quality Reporting for Stata
+
 ---
 
 ## 🔹 Core Stata Package Features  
