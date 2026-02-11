@@ -93,7 +93,7 @@
 
 | Package | Version | Updated | Description |
 |---------|---------|---------|-------------|
-| [**datareport**](https://github.com/RanaRedoan/datareport) | ![v1.0](https://img.shields.io/badge/v1.0-blue) | ![Feb 2026](https://img.shields.io/badge/Jun%202025-purple) | creates a comprehensive Excel report containing detailed information about the current dataset. |
+| [**datareport**](https://github.com/RanaRedoan/datareport) | ![v1.0](https://img.shields.io/badge/v1.0-blue) | ![Feb 2026](https://img.shields.io/badge/Jun%202026-purple) | creates a comprehensive Excel report containing detailed information about the current dataset. |
 | [**optcounts**](https://github.com/RanaRedoan/optcounts) | ![v1.0](https://img.shields.io/badge/v1.0-blue) | ![Jun 2025](https://img.shields.io/badge/Jun%202025-green) | Tracks frequency of special values (-99, 99, -999). Generates descriptive survey tables. |
 | [**detectoutlier**](https://github.com/RanaRedoan/detectoutlier) | ![v1.2](https://img.shields.io/badge/v1.2-blue) | ![Jul 2025](https://img.shields.io/badge/Jul%202025-orange) | Detects numeric outliers using mean ± k SD. Exports results with labels and stats. |
 | [**exportopenended**](https://github.com/RanaRedoan/exportopenended) | ![v1.1](https://img.shields.io/badge/v1.1-blue) | ![Jul 2025](https://img.shields.io/badge/Jul%202025-yellow) | Exports open-ended responses in long format (ID, variable, response, translation). |
