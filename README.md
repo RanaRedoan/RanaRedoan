@@ -182,12 +182,17 @@ Each package focuses on solving real-world research & survey data challenges. ðŸ
 </td>
 </tr>
 </table>
-</div>---
+</div>
+
 ---
+---
+
 ## Featured Software & Data Tools
+
 <p align="center">
 Beyond my Stata package collection, I also build practical software, SurveyCTO field tools, and workflow utilities for research and data operations.
 </p>
+
 | Project | Category | Updated | Description |
 |---------|----------|---------|-------------|
 | [**ScheduleCodeRunner**](https://github.com/RanaRedoan/ScheduleCodeRunner) | Desktop App | Mar 2026 | Windows desktop app for scheduling scripts and executables with task history and installer-based distribution. |
@@ -195,10 +200,12 @@ Beyond my Stata package collection, I also build practical software, SurveyCTO f
 | [**surveycto-radar-navigator**](https://github.com/RanaRedoan/surveycto-radar-navigator) | SurveyCTO / GPS Tool | Jan 2026 | GPS navigation plug-in for SurveyCTO and ODK with offline radar guidance and route handoff to Google Maps. |
 | [**exporttables**](https://github.com/RanaRedoan/exporttables) | Data Utility | Sep 2025 | Work-in-progress table export utility for structured reporting and data workflow support. |
 | [**texttranslation**](https://github.com/RanaRedoan/texttranslation) | Data Utility | Aug 2025 | Text translation utility repository for multilingual data handling and translation workflows. |
----
----
-## ??? Install All Stata Packages at Once  To get all my featured Stata packages in one go, simply run the following command in Stata:
 
+---
+---
+
+## Install All Stata Packages at Once
+To get all my featured Stata packages in one go, simply run the following command in Stata:
 ```stata
 do "https://raw.githubusercontent.com/RanaRedoan/RanaRedoan/main/RanaRedoan_stata_custom_pkg.do"
 ```
