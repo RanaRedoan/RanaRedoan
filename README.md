@@ -182,14 +182,9 @@ Each package focuses on solving real-world research & survey data challenges. �
 </td>
 </tr>
 </table>
-</div>
-
-
+</div>---
 ---
----
-
-## 🛠️ Install All Stata Packages at Once  
-## ?? Featured Software & Data Tools  
+## Featured Software & Data Tools
 <p align="center">
 Beyond my Stata package collection, I also build practical software, SurveyCTO field tools, and workflow utilities for research and data operations.
 </p>
@@ -201,7 +196,8 @@ Beyond my Stata package collection, I also build practical software, SurveyCTO f
 | [**exporttables**](https://github.com/RanaRedoan/exporttables) | Data Utility | Sep 2025 | Work-in-progress table export utility for structured reporting and data workflow support. |
 | [**texttranslation**](https://github.com/RanaRedoan/texttranslation) | Data Utility | Aug 2025 | Text translation utility repository for multilingual data handling and translation workflows. |
 ---
----To get all my featured Stata packages in one go, simply run the following command in Stata:
+---
+## ??? Install All Stata Packages at Once  To get all my featured Stata packages in one go, simply run the following command in Stata:
 
 ```stata
 do "https://raw.githubusercontent.com/RanaRedoan/RanaRedoan/main/RanaRedoan_stata_custom_pkg.do"
