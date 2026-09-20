@@ -5,7 +5,7 @@
 
 <p align="center">
   I’m a data professional focused on research, analytics, and workflow optimization.  
-  I create open-source <b>Stata packages</b> to save time, reduce errors, and enhance efficiency.  
+  I create open-source <b>Solution packages</b> to save time, reduce errors, and enhance efficiency.  
   These tools are now available for anyone working with survey or research data.
 </p>
 
