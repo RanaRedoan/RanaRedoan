@@ -7,20 +7,22 @@
 	* PHONE		  :  +8801675735811
 	* LOCATION	  :  Dhaka, Bangladesh
 	* DATE		  :  12th July, 2025
-	* LAST UPDATE :  27th August, 2025
+	* LAST UPDATE :  10th October, 2026
 	*-------------------------------------------------------------------------------
-	
+
 	PURPOSE:
-			This program installs a suite of custom Stata tools designed to enhance 
-			data quality assurance and streamline data processing workflows. These tools 
+			This program installs a suite of custom Stata tools designed to enhance
+			data quality assurance and streamline data processing workflows. These tools
 			provide specialized functionality for:
+				- Data quality reports
+				- Table exports
 				- Optimal counts analysis
 				- Bias detection
 				- Automated codebook generation
 				- Open-ended response handling
-				- Input correction (String) 
+				- Input correction (String)
 				- Outlier detection (Numeric)
-				- Batch table exportation (for all or selected-variables)
+				- Searching, blanking and banner tables
 
 		    The tools are free to use and will be permanently available after installation.
 
@@ -36,8 +38,8 @@
 	   - Counts occurrences per enumerator/variable
 	   - Identifies prevalence of specific codes for both string & bytes
 	   - Generates a descriptive table of number of survey along with the count of given codes.
-	   
-	 
+
+
 	 2. detectoutlier - Outlier Detection Tool
 	 `````````````````````````````````````````````````````````````````````````````
 	 Purpose: Identifies outliers in numeric variables
@@ -48,7 +50,7 @@
 	     • Variable names/labels
 	     • Outlier values
 	     • Minimum and Maximum value
-	
+
 	 3. exportopenended - Text Response Exporter
 	 `````````````````````````````````````````````````````````````````````````````
 	 Purpose: Exports open-ended responses to Excel
@@ -68,15 +70,14 @@
 	   - Handles translations
 
 
-	 5. codebookgen - Automated Codebook Generator
+	 5. gencodebook - Automated Codebook Generator
 	 `````````````````````````````````````````````````````````````````````````````
 	 Purpose: Creates professional dataset documentation
 	 Features:
 	   - Excel format output
 	   - Includes:
 	     • Variable labels
-	     • Value labels
-	     • Characteristics
+	     • Storage types
 	     • Missing value statistics
 
 
@@ -87,20 +88,41 @@
 	   - Analyzes ordinal/Likert-scale questions
 	   - Generates frequency distribution tables
 	   - Shows enumerator deviations from overall trends
-	 
-	 
-	 7. exporttabs - Batch Table Exporter
+
+
+	 7. exporttables - Batch Table Exporter
 	 `````````````````````````````````````````````````````````````````````````````
-	 Purpose:  Automates exporting frequency and cross-tabulation tables to Excel for all variables of any dataset
-	 Features:  
-	   - Exports one-way frequency tables for all or selected variables  
-	   - Creates two-way cross-tabulations using the `by()` option  
-	   - Supports standard tabulate options via `tabopt()` (row, col, cell, nofreq, etc.)  
-	   - Automatically generates percentages (rounded to 2 decimals)  
-	   - Works with labeled and unlabeled categorical variables  
-	   - Outputs directly to Excel (new file, replaces if existing)  
-	   - Produces clean, plain tables (user can style further in Excel)  
-	   - Useful for batch processing many variables quickly  
+	 Purpose:  Exports a formatted table for every variable of a dataset to one Excel workbook
+	 Features:
+	   - Single choice, multiple choice (select_multiple) and continuous tables
+	   - Every table crossed by a category such as district with the by() option
+	   - Text variables with up to 50 answers are tabled too (data from Excel)
+	   - Index sheet with a link to every table
+	   - Formatted by Stata itself, no Python needed
+
+	 8. datareport - Data Quality Report
+	 `````````````````````````````````````````````````````````````````````````````
+	 Purpose:  Writes a formatted Excel report describing every variable of a dataset
+	 Features:
+	   - Type, label, missing counts, value labels and a summary per variable
+	   - Folds SurveyCTO / ODK / Kobo multiple-select questions into one row
+	   - Optional XLSForm for sharper detection and option labels
+
+	 9. searchfor - Search Utility
+	 `````````````````````````````````````````````````````````````````````````````
+	 Purpose:  Finds any text, number or pattern across the variables of a dataset
+
+	 10. blankvar - Blank Out Variables
+	 `````````````````````````````````````````````````````````````````````````````
+	 Purpose:  Clears string and numeric variables in one command (string -> "", numeric -> .)
+
+	 11. supertable - Banner Tables
+	 `````````````````````````````````````````````````````````````````````````````
+	 Purpose:  Nested banner cross-tabulations (up to 5 by() levels) exported to Excel
+
+	 12. stata_error_sound (dosound) - Error Sound
+	 `````````````````````````````````````````````````````````````````````````````
+	 Purpose:  Runs a do-file and plays a sound if it stops with an error
 	*-------------------------------------------------------------------------------*/
 
 
@@ -112,26 +134,33 @@
 	display "Starting installation process..."
 	display "Please wait while tools are being installed..."
 
-	// Installation commands with progress feedback
-	local tools optcounts biascheck codebookgen exportopenended inputcorrection detectoutlier exporttabs
-	local i 1
+	// Package names, and the GitHub repository each one lives in
+	local tools optcounts biascheck gencodebook exportopenended inputcorrection detectoutlier exporttables datareport searchfor blankvar supertable stata_error_sound
+	local repos optcounts biascheck gencodebook exportopenended inputcorrection detectoutlier exporttables datareport searchfor blankvar supertable stata-error-sound
+	local n : word count `tools'
+	local failed ""
 
-	foreach tool of local tools {
+	forvalues i = 1/`n' {
+		local tool : word `i' of `tools'
+		local repo : word `i' of `repos'
 		display _n(1)
-		display "Installing `tool' (Tool `i' of 7)..."
-		
+		display "Installing `tool' (Tool `i' of `n')..."
+
 		cap ado uninstall `tool'
-		net install `tool', from("https://raw.githubusercontent.com/RanaRedoan/`tool'/main") replace
-		help `tool'
-		
-		local ++i
+		// one failed download must not stop the others
+		capture noisily net install `tool', from("https://raw.githubusercontent.com/RanaRedoan/`repo'/main") replace
+		if _rc local failed "`failed' `tool'"
+		else help `tool'
 	}
 
 
-display "INSTALLATION COMPLETED SUCCESSFULLY"
-display "For support, bug reports, or feature requests, please contact to the author"
-
-
-
-
-
+	display _n(1)
+	if "`failed'" == "" {
+		display "INSTALLATION COMPLETED SUCCESSFULLY"
+	}
+	else {
+		display as error "These tools could not be installed:`failed'"
+		display as error "Check your internet connection and run this file again."
+	}
+	display "Type, for example, {bf:help datareport} to read about a tool."
+	display "For support, bug reports, or feature requests, please contact to the author"

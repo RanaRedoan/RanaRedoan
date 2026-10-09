@@ -93,14 +93,18 @@
 
 | Package | Version | Updated | Description |
 |---------|---------|---------|-------------|
-| [**datareport**](https://github.com/RanaRedoan/datareport) | ![v1.0](https://img.shields.io/badge/v1.0-blue) | ![Feb 2026](https://img.shields.io/badge/Feb%202026-purple) | creates a comprehensive Excel report containing detailed information about the current dataset. |
-| [**optcounts**](https://github.com/RanaRedoan/optcounts) | ![v1.0](https://img.shields.io/badge/v1.0-blue) | ![Jun 2025](https://img.shields.io/badge/Jun%202025-green) | Tracks frequency of special values (-99, 99, -999). Generates descriptive survey tables. |
-| [**detectoutlier**](https://github.com/RanaRedoan/detectoutlier) | ![v1.2](https://img.shields.io/badge/v1.2-blue) | ![Jul 2025](https://img.shields.io/badge/Jul%202025-orange) | Detects numeric outliers using mean ± k SD. Exports results with labels and stats. |
-| [**exportopenended**](https://github.com/RanaRedoan/exportopenended) | ![v1.1](https://img.shields.io/badge/v1.1-blue) | ![Jul 2025](https://img.shields.io/badge/Jul%202025-yellow) | Exports open-ended responses in long format (ID, variable, response, translation). |
-| [**inputcorrection**](https://github.com/RanaRedoan/inputcorrection) | ![v1.3](https://img.shields.io/badge/v1.3-blue) | ![Apr 2025](https://img.shields.io/badge/Apr%202025-red) | Applies corrected values from Excel to datasets, streamlining text edits & translations. |
-| [**gencodebook**](https://github.com/RanaRedoan/gencodebook) | ![v2.0](https://img.shields.io/badge/v2.0-blue) | ![May 2025](https://img.shields.io/badge/May%202025-green) | Generates professional dataset documentation in Excel. |
-| [**biascheck**](https://github.com/RanaRedoan/biascheck) | ![v1.5](https://img.shields.io/badge/v1.5-blue) | ![Jul 2025](https://img.shields.io/badge/Jul%202025-yellow) | Detects potential enumerator bias using Likert/ordinal deviation checks. |
-| [**exporttabs**](https://github.com/RanaRedoan/exporttabs) | ![v1.4](https://img.shields.io/badge/v1.4-blue) | ![Aug 2025](https://img.shields.io/badge/Aug%202025-purple) | Exports single & cross-tabulation tables to Excel with one command. |
+| [**datareport**](https://github.com/RanaRedoan/datareport) | ![v2.2.0](https://img.shields.io/badge/v2.2.0-blue) | ![Oct 2026](https://img.shields.io/badge/Oct%202026-purple) | Creates a formatted Excel data-quality report describing every variable of the dataset. No Python needed. |
+| [**exporttables**](https://github.com/RanaRedoan/exporttables) | ![v2.2.0](https://img.shields.io/badge/v2.2.0-blue) | ![Oct 2026](https://img.shields.io/badge/Oct%202026-purple) | Exports a formatted table for every variable to one Excel workbook, one-way or crossed by district. |
+| [**optcounts**](https://github.com/RanaRedoan/optcounts) | ![v1.3](https://img.shields.io/badge/v1.3-blue) | ![Jul 2025](https://img.shields.io/badge/Jul%202025-green) | Tracks frequency of special values (-99, 99, -999) per enumerator. |
+| [**detectoutlier**](https://github.com/RanaRedoan/detectoutlier) | ![v1.0.10](https://img.shields.io/badge/v1.0.10-blue) | ![Jul 2025](https://img.shields.io/badge/Jul%202025-orange) | Detects numeric outliers using mean ± k SD. Exports results with labels and stats. |
+| [**exportopenended**](https://github.com/RanaRedoan/exportopenended) | ![v1.2](https://img.shields.io/badge/v1.2-blue) | ![Apr 2026](https://img.shields.io/badge/Apr%202026-yellow) | Exports open-ended responses in long format (ID, variable, response, translation). |
+| [**inputcorrection**](https://github.com/RanaRedoan/inputcorrection) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-blue) | ![Oct 2026](https://img.shields.io/badge/Oct%202026-red) | Applies corrected values from Excel to datasets, streamlining text edits & translations. |
+| [**gencodebook**](https://github.com/RanaRedoan/gencodebook) | ![v1.1.1](https://img.shields.io/badge/v1.1.1-blue) | ![Oct 2026](https://img.shields.io/badge/Oct%202026-green) | Generates professional dataset documentation in Excel. |
+| [**biascheck**](https://github.com/RanaRedoan/biascheck) | ![v1.4](https://img.shields.io/badge/v1.4-blue) | ![Jul 2025](https://img.shields.io/badge/Jul%202025-yellow) | Detects potential enumerator bias using Likert/ordinal deviation checks. |
+| [**searchfor**](https://github.com/RanaRedoan/searchfor) | ![v1.1.0](https://img.shields.io/badge/v1.1.0-blue) | ![Apr 2026](https://img.shields.io/badge/Apr%202026-orange) | Finds any text, number or pattern across the variables of a dataset. |
+| [**blankvar**](https://github.com/RanaRedoan/blankvar) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-blue) | ![Sep 2026](https://img.shields.io/badge/Sep%202026-green) | Blanks out string and numeric variables in one command. |
+| [**supertable**](https://github.com/RanaRedoan/supertable) | ![v1.0.1](https://img.shields.io/badge/v1.0.1-blue) | ![Aug 2026](https://img.shields.io/badge/Aug%202026-purple) | Nested banner cross-tabulations (up to 5 levels) exported to Excel. |
+| [**stata-error-sound**](https://github.com/RanaRedoan/stata-error-sound) | ![v1.0.0](https://img.shields.io/badge/v1.0.0-blue) | ![Apr 2026](https://img.shields.io/badge/Apr%202026-yellow) | `dosound`: runs a do-file and plays a sound if it stops with an error. |
 
 
 ---
@@ -173,10 +177,10 @@ Each package focuses on solving real-world research & survey data challenges. �
 
 <tr>
 <td colspan="2" style="background: linear-gradient(135deg, #f0f9ff, #e0f3ff); border-radius:15px; padding:20px; border:1px solid #cce7ff;">
-<h3>📊 <b>exporttabs</b> – <i>Batch Table Exporter</i></h3>
+<h3>📊 <b>exporttables</b> – <i>Batch Table Exporter</i></h3>
 <ul>
-  <li>📤 Exports all single & cross-tabulations</li>
-  <li>📑 Produces clean Excel outputs</li>
+  <li>📤 Exports a table for every variable, one-way or by district</li>
+  <li>📑 Produces clean, formatted Excel outputs with an index</li>
   <li>💡 Saves hours of manual tabulation effort</li>
 </ul>
 </td>
@@ -198,8 +202,6 @@ Beyond my Stata package collection, I also build practical software, SurveyCTO f
 | [**ScheduleCodeRunner**](https://github.com/RanaRedoan/ScheduleCodeRunner) | Desktop App | Mar 2026 | Windows desktop app for scheduling scripts and executables with task history and installer-based distribution. |
 | [**surveycto-random-dice-plugin**](https://github.com/RanaRedoan/surveycto-random-dice-plugin) | SurveyCTO Plug-in | Feb 2026 | SurveyCTO field plug-in with an animated dice roller that captures one integer result directly in the form. |
 | [**surveycto-radar-navigator**](https://github.com/RanaRedoan/surveycto-radar-navigator) | SurveyCTO / GPS Tool | Jan 2026 | GPS navigation plug-in for SurveyCTO and ODK with offline radar guidance and route handoff to Google Maps. |
-| [**exporttables**](https://github.com/RanaRedoan/exporttables) | Data Utility | Sep 2025 | Work-in-progress table export utility for structured reporting and data workflow support. |
-| [**texttranslation**](https://github.com/RanaRedoan/texttranslation) | Data Utility | Aug 2025 | Text translation utility repository for multilingual data handling and translation workflows. |
 
 ---
 ---
